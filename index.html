@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RESAVO — Rechtliches</title>
+<style>
+  :root{ --bg:#F5F4EF; --ink:#1C231F; --ink-soft:#4B5148; --pine:#2E4034; --line:#E1DED3; color-scheme: light; }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#151815; --ink:#F0EEE6; --ink-soft:#B7BBB0; --pine:#4E7A5F; --line:#2C322B; color-scheme: dark; }
+  }
+  body{
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+  }
+  h1{ font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: 28px; color: var(--pine); margin: 0; }
+  nav{ display: flex; gap: 20px; }
+  a{ color: var(--pine); font-size: 15px; text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 2px; }
+  a:hover{ border-bottom-color: var(--pine); }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+</head>
+<body>
+  <h1>RESAVO</h1>
+  <nav>
+    <a href="./privacy.html">Datenschutzerklärung</a>
+    <a href="./terms.html">Nutzungsbedingungen</a>
+  </nav>
+</body>
+</html>
