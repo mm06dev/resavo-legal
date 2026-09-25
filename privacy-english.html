@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – RESAVO</title>
+<style>
+  :root{
+    --bg:#F5F4EF; --surface:#FDFCF9; --ink:#1C231F; --ink-soft:#4B5148; --muted:#8A8F87; --line:#E1DED3;
+    --pine:#2E4034; --brass:#A9803F; --brass-soft:#EFE3CC;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#151815; --surface:#1F2420; --ink:#F0EEE6; --ink-soft:#B7BBB0; --muted:#82877D; --line:#2C322B;
+      --pine:#4E7A5F; --brass:#CC9F5C; --brass-soft:#392C18;
+      color-scheme: dark;
+    }
+  }
+  *{ box-sizing: border-box; }
+  body{
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .wrap{
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 20px 64px;
+  }
+  header.top{
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+  }
+  header.top .brand{
+    font-family: "Instrument Serif", Georgia, serif;
+    font-size: 22px;
+    color: var(--pine);
+    letter-spacing: 0.02em;
+  }
+  header.top nav{ display:flex; gap: 16px; font-size: 13px; }
+  header.top nav a{ color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
+  header.top nav a.current{ color: var(--ink); border-bottom-color: var(--brass); }
+  header.top nav a:hover{ color: var(--ink); }
+  h1{
+    font-family: "Instrument Serif", Georgia, serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 6px;
+  }
+  .stand{ color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  .lede{ color: var(--ink-soft); font-size: 16px; line-height: 1.7; margin-bottom: 36px; }
+  .toc{ background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-bottom: 40px; }
+  .toc-label{ font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .toc ol{ columns: 2; column-gap: 24px; margin: 0; padding: 0; list-style: none; }
+  .toc li{ break-inside: avoid; margin-bottom: 6px; }
+  .toc a{ color: var(--ink-soft); text-decoration: none; font-size: 13.5px; }
+  .toc a:hover{ color: var(--pine); }
+  section{ padding-top: 30px; margin-top: 6px; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+  section:first-of-type{ border-top: none; }
+  h2{ display: flex; align-items: baseline; gap: 12px; font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: 22px; margin: 0 0 14px; }
+  h2 .num{ font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 12px; color: var(--brass); background: var(--brass-soft); border-radius: 999px; padding: 3px 9px; flex-shrink: 0; }
+  h3{ font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 14.5px; color: var(--ink); margin: 20px 0 8px; }
+  p{ margin: 0 0 14px; }
+  ul{ margin: 0 0 14px; padding-left: 20px; }
+  li{ margin-bottom: 6px; }
+  strong{ color: var(--ink); font-weight: 600; }
+  em{ font-style: italic; color: var(--ink-soft); }
+  .table-wrap{ overflow-x: auto; margin: 0 0 16px; }
+  table{ width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td{ text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th{ font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .contact-block{ background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; font-size: 14px; color: var(--ink-soft); line-height: 1.7; }
+  footer{ margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+  a{ color: var(--pine); }
+  img{ max-width: 100%; }
+  @media (max-width: 480px){
+    h1{ font-size: 28px; }
+    .toc ol{ columns: 1; }
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">RESAVO</div>
+    <nav>
+      <a class="current" href="#top">Privacy</a>
+      <a href="./terms-english.html">Terms</a>
+    </nav>
+  </header>
+
+  <h1 id="top">Privacy Policy for RESAVO</h1>
+  <div class="stand">Last updated: September 25, 2026</div>
+  <p class="lede">This privacy policy applies to the <strong>RESAVO</strong> app (iOS and Android) and explains which personal data we process, for what purpose, on what legal basis, and what rights you have. It applies equally to both app stores.</p>
+
+  <div class="toc">
+    <div class="toc-label">Contents</div>
+    <ol>
+      <li><a href="#s1">1. Controller</a></li>
+      <li><a href="#s2">2. What the app does</a></li>
+      <li><a href="#s3">3. What data we process</a></li>
+      <li><a href="#s4">4. Purposes and legal bases</a></li>
+      <li><a href="#s5">5. Recipients and processors</a></li>
+      <li><a href="#s6">6. Transfers to third countries</a></li>
+      <li><a href="#s7">7. Retention periods</a></li>
+      <li><a href="#s8">8. Deleting your account</a></li>
+      <li><a href="#s9">9. Your rights</a></li>
+      <li><a href="#s10">10. Children</a></li>
+      <li><a href="#s11">11. Security</a></li>
+      <li><a href="#s12">12. Changes</a></li>
+      <li><a href="#s13">13. Contact</a></li>
+    </ol>
+  </div>
+
+  <section id="s1">
+    <h2><span class="num">1</span>Controller</h2>
+    <div class="contact-block">
+      Maximilian Mayr<br>
+      Oberdorf 25<br>
+      6342 Niederndorf, Austria<br>
+      Email: mmayr006@gmail.com
+    </div>
+  </section>
+
+  <section id="s2">
+    <h2><span class="num">2</span>What the app does</h2>
+    <p>RESAVO helps you catalog items, estimate their resale value, and create listing copy for selling platforms. RESAVO is a paid service: the app can only be used with an active Pro subscription, and an account is required for that — without an account and a subscription, there is no access to the app's features.</p>
+  </section>
+
+  <section id="s3">
+    <h2><span class="num">3</span>What data we process</h2>
+
+    <h3>3.1 Photos and details about your items</h3>
+    <ul>
+      <li>Photos you take with the camera or select from your photo library</li>
+      <li>Details about the item (name, brand, model, category, condition, price estimate, score, status such as "listed" or "sold", sale price and date, chosen platform)</li>
+      <li>Listing copy you edit (title, description)</li>
+    </ul>
+    <p>Because an account is required to use the app, this data is always also stored in our cloud (see 3.3).</p>
+
+    <h3>3.2 Processing by artificial intelligence</h3>
+    <p>To let the app recognize items, estimate their value, and write listing copy, we send your <strong>photos and the details about the item</strong> to an AI service (see Section 5). This happens <strong>only after your explicit consent</strong>, which the app asks for before the first scan. Without consent, no scan takes place.</p>
+    <p>You can withdraw consent at any time under <em>Profile → Privacy → "Analyze photos with AI"</em>. Processing that has already taken place is not affected.</p>
+    <p>The results (recognition, valuation, texts) are automatically generated suggestions. They have no legal effect on you. You decide for yourself whether to use them.</p>
+
+    <h3>3.3 Account and synchronization</h3>
+    <p>An account is required to use the app (see Section 2). When you register, we process:</p>
+    <ul>
+      <li>your email address and, if you sign in via Google or Apple, the name and identifier of that sign-in service</li>
+      <li>the time of registration</li>
+      <li>your items, photos, and settings (for backup and synchronization across your devices)</li>
+    </ul>
+
+    <h3>3.4 Settings and local data</h3>
+    <p>Your preferences (e.g. country, goal, shipping, tone, preferred platforms, appearance) and cached listing copy are stored on your device and synchronized with your account.</p>
+
+    <h3>3.5 Technical data</h3>
+    <p>With every request to our AI intermediary (see Section 5), your IP address is briefly processed to limit abuse (rate limiting). We do not store it permanently for this purpose.</p>
+
+    <h3>3.5b Crash and error reports</h3>
+    <p>So that we can fix bugs, the app sends a technical report to <strong>Sentry</strong> on crashes and errors: error message, program flow (stack trace), app version, operating system and device model, as well as the steps immediately before the error (e.g. "request to the AI service failed", without content). These reports contain <strong>no photos, no text from your listings, no email address, and no account identifier</strong>. We do not enable screen recording or session replay, and we do not measure usage performance.</p>
+
+    <h3>3.5c Product analytics (optional, only with your consent)</h3>
+    <p>With your explicit consent (<em>Profile → Privacy → "Usage analytics"</em>), we use <strong>PostHog</strong> for simple product analytics: which screens are visited (names only, no content), as well as events around the Pro subscription (e.g. "paywall shown", "purchase started/completed/cancelled"). This uses a random, pseudonymous device identifier as well as your account identifier — <strong>never your email address</strong>. We do not record screen content (no session replay) and do not capture tap or swipe gestures.</p>
+    <p>You can withdraw consent at any time under <em>Profile → Privacy</em>; analytics then stop immediately and the associated identifier is reset on the device.</p>
+
+    <h3>3.6 Purchases and subscription management</h3>
+    <p>For the Pro subscription, which is required to use the app, we use <strong>RevenueCat</strong> as an intermediary between the app and the App Store/Play Store: purchase status, product/subscription identifier, and your account identifier are transmitted there so your subscription is recognized across your devices. Payment data (e.g. card numbers) is handled exclusively by Apple/Google and never reaches us.</p>
+
+    <h3>3.7 What we don't do</h3>
+    <p>We do not use <strong>advertising tracking services</strong> and do not share data for advertising purposes. The product analytics described in 3.5c is purely product-related, opt-in, and not linked to advertising networks. The app does not collect location data and does not use contacts.</p>
+  </section>
+
+  <section id="s4">
+    <h2><span class="num">4</span>Purposes and legal bases</h2>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Purpose</th><th>Legal basis (GDPR)</th></tr>
+        <tr><td>Providing the app's features, account management, synchronization</td><td>Art. 6(1)(b) GDPR (contract / terms of service)</td></tr>
+        <tr><td>Evaluation of photos and details by AI</td><td>Art. 6(1)(a) GDPR (consent), revocable at any time</td></tr>
+        <tr><td>Abuse prevention and service security</td><td>Art. 6(1)(f) GDPR (legitimate interest in secure operation)</td></tr>
+        <tr><td>Crash and error reports (Sentry)</td><td>Art. 6(1)(f) GDPR (legitimate interest in a stable app)</td></tr>
+        <tr><td>Processing and managing the Pro subscription (RevenueCat)</td><td>Art. 6(1)(b) GDPR (contract)</td></tr>
+        <tr><td>Product analytics (PostHog)</td><td>Art. 6(1)(a) GDPR (consent), revocable at any time</td></tr>
+        <tr><td>Compliance with legal obligations (e.g. record-keeping)</td><td>Art. 6(1)(c) GDPR</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="s5">
+    <h2><span class="num">5</span>Recipients and processors</h2>
+    <p>We use the following service providers. Where required, data processing agreements are in place with them.</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Provider</th><th>Purpose</th><th>Data</th><th>Location</th></tr>
+        <tr><td><strong>Anthropic, PBC</strong></td><td>AI recognition, valuation, listing copy</td><td>Photos, item details</td><td>USA</td></tr>
+        <tr><td><strong>Cloudflare, Inc.</strong></td><td>Intermediary ("proxy") between the app and the AI, rate limiting</td><td>Photos and details (pass-through), IP address (briefly)</td><td>USA / worldwide</td></tr>
+        <tr><td><strong>Clerk, Inc.</strong></td><td>Sign-in and account management</td><td>Email, name, sign-in identifier</td><td>USA</td></tr>
+        <tr><td><strong>Convex, Inc.</strong></td><td>Cloud storage and synchronization</td><td>Items, photos, settings</td><td>USA</td></tr>
+        <tr><td><strong>Functional Software, Inc. (Sentry)</strong></td><td>Crash and error reports</td><td>Technical data without content, see 3.5b</td><td>Stored in the EU (Frankfurt); provider headquartered in the USA</td></tr>
+        <tr><td><strong>RevenueCat, Inc.</strong></td><td>Processing and managing the Pro subscription, across devices</td><td>Purchase status, product/subscription identifier, pseudonymous user/account identifier, see 3.6</td><td>USA</td></tr>
+        <tr><td><strong>PostHog, Inc.</strong></td><td>Product analytics (only with consent)</td><td>Visited screens, events around the Pro subscription, pseudonymous identifier, see 3.5c</td><td>Stored in the EU; provider headquartered in the USA</td></tr>
+        <tr><td><strong>Google / Apple</strong></td><td>Sign-in via "Sign in with Google" / "Sign in with Apple", if you choose to</td><td>Identifier, email, name</td><td>USA / EU</td></tr>
+      </table>
+    </div>
+    <p>Sentry stores its data in the EU region (Frankfurt); PostHog is configured to use the EU cloud. As both providers are headquartered in the USA, access from the USA (e.g. support) cannot be ruled out; the safeguards described in Section 6 apply to that.</p>
+    <p>According to the information available to us from the AI providers, content sent through the commercial interface is not used to train the models.</p>
+  </section>
+
+  <section id="s6">
+    <h2><span class="num">6</span>Transfers to third countries</h2>
+    <p>The service providers listed above are headquartered in the USA or process data there. The transfer relies on the European Commission's adequacy decision for the EU-US Data Privacy Framework (where the provider is certified) and additionally on the EU Standard Contractual Clauses (Art. 46 GDPR). For AI evaluation, the transfer is additionally based on your consent (Art. 49(1)(a) GDPR).</p>
+  </section>
+
+  <section id="s7">
+    <h2><span class="num">7</span>Retention periods</h2>
+    <ul>
+      <li><strong>Local data</strong> remains on your device until you delete it or uninstall the app.</li>
+      <li><strong>Cloud data</strong> is stored for as long as your account exists. If you delete your account, it is deleted.</li>
+      <li><strong>AI processing:</strong> we ourselves do not store the photos sent to the AI beyond the request itself.</li>
+      <li><strong>Error reports:</strong> stored at Sentry for the retention period set in the project (typically a few months).</li>
+      <li><strong>Rate limiting:</strong> IP addresses are processed only for the duration of the time window (about one minute).</li>
+      <li><strong>Purchase data (RevenueCat):</strong> stored for as long as your subscription or account exists, and beyond that for purchase record-keeping.</li>
+      <li><strong>Product analytics (PostHog):</strong> stored until you withdraw consent, and for no longer than 12 months.</li>
+    </ul>
+  </section>
+
+  <section id="s8">
+    <h2><span class="num">8</span>Deleting your account and your data</h2>
+    <p>You can delete your account <strong>directly in the app</strong>: <em>Profile → "Delete account"</em>. This irrevocably deletes your account, all data stored in the cloud (items, photos, settings), and all data on this device. If you signed in with "Sign in with Apple" or "Sign in with Google", this also deletes the link between your account and that sign-in with us.</p>
+    <p>Alternatively, you can request deletion by email to mmayr006@gmail.com.</p>
+  </section>
+
+  <section id="s9">
+    <h2><span class="num">9</span>Your rights</h2>
+    <p>Under the GDPR, you have the right to:</p>
+    <ul>
+      <li><strong>Access</strong> (Art. 15), <strong>rectification</strong> (Art. 16), <strong>erasure</strong> (Art. 17), <strong>restriction of processing</strong> (Art. 18)</li>
+      <li><strong>Data portability</strong> (Art. 20)</li>
+      <li><strong>Object</strong> to processing based on legitimate interests (Art. 21)</li>
+      <li><strong>Withdraw consent</strong> with effect for the future (Art. 7(3))</li>
+    </ul>
+    <p>To exercise these rights, write to us at mmayr006@gmail.com. You also have the right to lodge a complaint with a supervisory authority — in Austria with the <strong>Datenschutzbehörde</strong> (dsb.gv.at), in Germany with the data protection authority responsible for you.</p>
+  </section>
+
+  <section id="s10">
+    <h2><span class="num">10</span>Children</h2>
+    <p>The app is intended for people aged <strong>16 and over</strong>. We do not knowingly process data from children under 16.</p>
+  </section>
+
+  <section id="s11">
+    <h2><span class="num">11</span>Security</h2>
+    <p>Transmission between the app, the intermediary, and the cloud is encrypted (HTTPS). Access to cloud data is restricted to your account.</p>
+  </section>
+
+  <section id="s12">
+    <h2><span class="num">12</span>Changes</h2>
+    <p>We will update this policy if the app or the legal situation changes. The current version can always be found at this address. We will inform you in the app of any material changes.</p>
+  </section>
+
+  <section id="s13">
+    <h2><span class="num">13</span>Contact</h2>
+    <div class="contact-block">
+      Maximilian Mayr, Oberdorf 25, 6342 Niederndorf, Austria, mmayr006@gmail.com
+    </div>
+  </section>
+
+  <footer>
+    RESAVO — Privacy Policy, last updated September 25, 2026
+  </footer>
+</div>
+</body>
+</html>

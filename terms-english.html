@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service – RESAVO</title>
+<style>
+  :root{
+    --bg:#F5F4EF; --surface:#FDFCF9; --ink:#1C231F; --ink-soft:#4B5148; --muted:#8A8F87; --line:#E1DED3;
+    --pine:#2E4034; --brass:#A9803F; --brass-soft:#EFE3CC;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#151815; --surface:#1F2420; --ink:#F0EEE6; --ink-soft:#B7BBB0; --muted:#82877D; --line:#2C322B;
+      --pine:#4E7A5F; --brass:#CC9F5C; --brass-soft:#392C18;
+      color-scheme: dark;
+    }
+  }
+  *{ box-sizing: border-box; }
+  body{
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .wrap{ max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+  header.top{ display:flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-bottom: 20px; margin-bottom: 32px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  header.top .brand{ font-family: "Instrument Serif", Georgia, serif; font-size: 22px; color: var(--pine); letter-spacing: 0.02em; }
+  header.top nav{ display:flex; gap: 16px; font-size: 13px; }
+  header.top nav a{ color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
+  header.top nav a.current{ color: var(--ink); border-bottom-color: var(--brass); }
+  header.top nav a:hover{ color: var(--ink); }
+  h1{ font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: 34px; line-height: 1.15; margin: 0 0 6px; }
+  .stand{ color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  .lede{ color: var(--ink-soft); font-size: 16px; line-height: 1.7; margin-bottom: 36px; }
+  .toc{ background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-bottom: 40px; }
+  .toc-label{ font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .toc ol{ columns: 2; column-gap: 24px; margin: 0; padding: 0; list-style: none; }
+  .toc li{ break-inside: avoid; margin-bottom: 6px; }
+  .toc a{ color: var(--ink-soft); text-decoration: none; font-size: 13.5px; }
+  .toc a:hover{ color: var(--pine); }
+  section{ padding-top: 30px; margin-top: 6px; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+  section:first-of-type{ border-top: none; }
+  h2{ display: flex; align-items: baseline; gap: 12px; font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: 22px; margin: 0 0 14px; }
+  h2 .num{ font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 12px; color: var(--brass); background: var(--brass-soft); border-radius: 999px; padding: 3px 9px; flex-shrink: 0; }
+  p{ margin: 0 0 14px; }
+  ul{ margin: 0 0 14px; padding-left: 20px; }
+  li{ margin-bottom: 6px; }
+  strong{ color: var(--ink); font-weight: 600; }
+  em{ font-style: italic; color: var(--ink-soft); }
+  .contact-block{ background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; font-size: 14px; color: var(--ink-soft); line-height: 1.7; }
+  footer{ margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+  a{ color: var(--pine); }
+  img{ max-width: 100%; }
+  @media (max-width: 480px){
+    h1{ font-size: 28px; }
+    .toc ol{ columns: 1; }
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">RESAVO</div>
+    <nav>
+      <a href="./privacy-english.html">Privacy</a>
+      <a class="current" href="#top">Terms</a>
+    </nav>
+  </header>
+
+  <h1 id="top">Terms of Service for RESAVO</h1>
+  <div class="stand">Last updated: September 25, 2026</div>
+  <p class="lede">These terms govern the use of the <strong>RESAVO</strong> app (iOS and Android) between you and Maximilian Mayr, Oberdorf 25, 6342 Niederndorf, Austria, mmayr006@gmail.com ("we").</p>
+
+  <div class="toc">
+    <div class="toc-label">Contents</div>
+    <ol>
+      <li><a href="#s1">1. Service</a></li>
+      <li><a href="#s2">2. Use and account</a></li>
+      <li><a href="#s3">3. Estimates are suggestions</a></li>
+      <li><a href="#s4">4. Selling platforms</a></li>
+      <li><a href="#s5">5. Your content</a></li>
+      <li><a href="#s6">6. Prohibited use</a></li>
+      <li><a href="#s7">7. Pro subscription and payment</a></li>
+      <li><a href="#s8">8. Availability and changes</a></li>
+      <li><a href="#s9">9. Liability</a></li>
+      <li><a href="#s10">10. Termination</a></li>
+      <li><a href="#s11">11. Governing law</a></li>
+      <li><a href="#s12">12. Additional terms for Apple device users</a></li>
+      <li><a href="#s13">13. Additional terms for Android device users</a></li>
+      <li><a href="#s14">14. Miscellaneous</a></li>
+      <li><a href="#s15">15. Contact and provider identification</a></li>
+    </ol>
+  </div>
+
+  <section id="s1">
+    <h2><span class="num">1</span>Service</h2>
+    <p>RESAVO is an app for cataloging items, <strong>estimating their resale value</strong>, and <strong>creating listing copy</strong> for selling platforms. RESAVO is a paid service: there is no free use. Access to the app requires an ongoing Pro subscription (see Section 7).</p>
+  </section>
+
+  <section id="s2">
+    <h2><span class="num">2</span>Use and account</h2>
+    <ul>
+      <li>You must be at least <strong>16 years old</strong>.</li>
+      <li>An account is required to use the app — the app cannot be used without an account and an active subscription. The information you provide when signing up must be accurate. You are responsible for the security of your access.</li>
+      <li>You can delete your account in the app at any time (<em>Profile → Delete account</em>). This does not automatically cancel your subscription with the store — see Section 7 for that.</li>
+    </ul>
+  </section>
+
+  <section id="s3">
+    <h2><span class="num">3</span>Estimates and texts are suggestions</h2>
+    <p>Value estimates, price recommendations, scores, expected time to sell, and listing copy are generated <strong>automatically using artificial intelligence</strong>. They are <strong>non-binding suggestions</strong> and may be inaccurate or wrong. We do not guarantee any particular sale price or that a sale will succeed.</p>
+    <p><strong>You are solely responsible</strong> for reviewing listing copy before publishing it and for only making statements that actually apply to your item (e.g. condition, accessories, defects). Content you post on selling platforms is subject to that platform's own rules.</p>
+  </section>
+
+  <section id="s4">
+    <h2><span class="num">4</span>Selling platforms</h2>
+    <p>RESAVO is not affiliated with eBay, Kleinanzeigen, Vinted, willhaben, Ricardo, Facebook Marketplace, or any other platform. We are not a party to any sale, do not process payments, and are not a contracting party between you and buyers. Names and trademarks belong to their respective owners.</p>
+  </section>
+
+  <section id="s5">
+    <h2><span class="num">5</span>Your content</h2>
+    <p>The photos and texts you create remain yours. You grant us the right to process them to the extent necessary to provide the app (storage, synchronization, transmission to the AI service after your consent). You represent that you hold the rights to the photos and that no third-party rights (e.g. personality rights of people shown) are infringed. Please do not photograph people or sensitive documents.</p>
+    <p>Further details on data processing are set out in the <strong>Privacy Policy</strong>.</p>
+  </section>
+
+  <section id="s6">
+    <h2><span class="num">6</span>Prohibited use</h2>
+    <p>You must not misuse the app, in particular by: cataloging unlawful, counterfeit, or stolen items or prohibited goods; querying the service in an automated, excessive manner; circumventing protective measures; or reverse-engineering the app except as permitted by law.</p>
+  </section>
+
+  <section id="s7">
+    <h2><span class="num">7</span>Pro subscription and payment</h2>
+    <ul>
+      <li>Access to the app is offered as a <strong>subscription</strong> through the <strong>Apple App Store</strong> or <strong>Google Play</strong>. You will see the price and duration before purchase.</li>
+      <li>Payment is processed by the respective store. Subscriptions renew automatically unless cancelled at least 24 hours before renewal (Apple) or before the end of the term (Google). You can cancel and manage your subscription in your Apple or Google account settings. The technical intermediary between the app and the store is <strong>RevenueCat, Inc.</strong> (see Privacy Policy, Section 3.6); payment data is handled exclusively by Apple/Google.</li>
+      <li>Refunds are subject to the store's terms.</li>
+      <li><strong>Right of withdrawal (EU consumers):</strong> You have a 14-day right of withdrawal. For digital content, this right expires once we have begun performance with your express consent and acknowledgment that you thereby lose your right of withdrawal before the end of the period. The store requests this consent at the time of purchase.</li>
+    </ul>
+  </section>
+
+  <section id="s8">
+    <h2><span class="num">8</span>Availability and changes</h2>
+    <p>We strive for reliable operation but do not owe uninterrupted availability. We may change or discontinue features where reasonable to do so. We will notify you in the app of material changes to these terms; if you continue to use the app afterward, the changes are deemed accepted — otherwise you may delete your account.</p>
+  </section>
+
+  <section id="s9">
+    <h2><span class="num">9</span>Liability</h2>
+    <p>We are liable without limitation for intent and gross negligence, for injury to life, body, or health, and under applicable product liability law. For slightly negligent breach of material contractual obligations, liability is limited to typically foreseeable damage. Liability is otherwise excluded. Mandatory statutory consumer rights remain unaffected. In particular, we are not liable for lost sale proceeds or damages arising from your relying on an estimate or text without independent review.</p>
+  </section>
+
+  <section id="s10">
+    <h2><span class="num">10</span>Termination</h2>
+    <p>You may stop using the app and delete your account at any time. We may suspend or delete accounts if you materially breach these terms.</p>
+  </section>
+
+  <section id="s11">
+    <h2><span class="num">11</span>Governing law, dispute resolution</h2>
+    <p><strong>Austrian law</strong> applies, excluding the UN Convention on Contracts for the International Sale of Goods. For consumers, the law of the country in which they have their habitual residence applies to the extent that mandatory consumer protection provisions of that country are more favorable. Statutory venue rules apply for consumers.</p>
+    <p>Information on the EU Commission's online dispute resolution platform: <a href="https://ec.europa.eu/consumers/odr">ec.europa.eu/consumers/odr</a>. We are neither obligated nor willing to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+  </section>
+
+  <section id="s12">
+    <h2><span class="num">12</span>Additional terms for Apple device users</h2>
+    <ul>
+      <li>These terms are between you and us, <strong>not with Apple</strong>. We are solely responsible for the app and its content.</li>
+      <li>Apple has no obligation to provide maintenance or support for the app.</li>
+      <li>If the app fails to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price. Apple otherwise has no warranty obligation for the app.</li>
+      <li>We, not Apple, are responsible for addressing any claims relating to the app or your possession and use of it (e.g. product liability, compliance with legal requirements, consumer protection, or third-party rights).</li>
+      <li>You represent that you are not located in a country subject to a US government embargo or designated as a "terrorist supporting" country, and that you are not listed on any US government list of prohibited or restricted parties.</li>
+      <li>Apple and its subsidiaries are <strong>third-party beneficiaries</strong> of these terms and may enforce them against you once you accept them.</li>
+      <li>Apple's Media Services Terms and Conditions also apply.</li>
+    </ul>
+  </section>
+
+  <section id="s13">
+    <h2><span class="num">13</span>Additional terms for Android device users</h2>
+    <ul>
+      <li>These terms are between you and us, <strong>not with Google</strong>. Google Play's own terms of service additionally apply to the purchase and management of subscriptions.</li>
+      <li>Google is not responsible for the app and has no obligation to provide maintenance or support.</li>
+    </ul>
+  </section>
+
+  <section id="s14">
+    <h2><span class="num">14</span>Miscellaneous</h2>
+    <p>Should any provision be invalid, the remaining provisions remain in effect. Amendments and side agreements require written form.</p>
+  </section>
+
+  <section id="s15">
+    <h2><span class="num">15</span>Contact and provider identification</h2>
+    <div class="contact-block">
+      Maximilian Mayr, Oberdorf 25, 6342 Niederndorf, Austria, mmayr006@gmail.com
+    </div>
+  </section>
+
+  <footer>
+    RESAVO — Terms of Service, last updated September 25, 2026
+  </footer>
+</div>
+</body>
+</html>
